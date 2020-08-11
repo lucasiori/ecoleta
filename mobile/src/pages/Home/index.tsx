@@ -32,7 +32,7 @@ const Home = () => {
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}
     >
       <ImageBackground 
-        source={require('../../assets/background.png')} 
+        source={require('../../assets/home-background.png')} 
         style={styles.container}
         imageStyle={{ width: 274, height: 368 }}
       >
